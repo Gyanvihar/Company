@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+.size{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+/* .logoimage{
+    height: 70px;
+} */
+.back:hover{
+        filter:brightness(90%);
+        /* transform:scale(1.1); */
+}
+/* .demo{
+    text-align: center;
+    padding-right: 100px; 
+}*/

@@ -1,0 +1,16 @@
+.btn1{
+background-color: rgb(11, 236, 252);
+box-shadow: 0px 2px 80px 3px #79aeca ;
+color: rgb(16, 16, 16);
+}
+.btn1:hover{
+    background-color: #ef590e;
+color: #fff;
+border-radius: 5px;
+padding: 1.1rem 2rem;
+font-size: 1rem;
+margin-right: 10;
+}
+#project{
+    margin-left: 20px;
+}

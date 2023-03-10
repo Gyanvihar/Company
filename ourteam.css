@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Texthttps://fonts.googleapis.com/css2?family=Bellota+Text:ital, wght@0,300;0,400;0,700; 1,300;1,400; 1,700&display=swap');
+ 
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    .style
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background:#f2f3f7;
+    }
+    .container1
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+.container1 .card{
+
+width: 200px;
+height: 200px;
+padding: 5px 3px;
+margin: 15px;
+background: #fff;
+box-shadow: 0.6em 0.6em 1.2em #779ac8,
+       -0.5em 0.5em 1em #ffffff;
+border-radius: 20px; 
+transition: 5s;      
+}  
+
+.container1 .card .content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container1 .card .content .imgBx{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+.container1 .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container1 .card .content .contentBx h4{
+    color: #9e06fd;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    } 
+
+    .container1 .card .content .contentBx h5{
+        color: #ce4924;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }  
+    
+    .container1 .card{
+        border-radius: 0;
+        box-shadow: 2px 2px 2px #f18ee6;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+    
+    
+     }
+    
+     .container1 .card:hover{
+        background: #bccfb8;
+        /* color: rgb(243, 246, 248); */
+        border: 5px;
+        border: none;
+        box-shadow: 5px 5px 10px #e59143;
+        color: #f15e4e;
+        transform:translateY(-5px) ;
+        
+     }
+    
